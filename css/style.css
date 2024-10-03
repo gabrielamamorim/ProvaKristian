@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: "DM Sans", sans-serif;*/
+    font-family: "Inter", sans-serif;
+    background-color: #FFFFFF;
+    color: #101010;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    width: 100%;
+}
+
+header h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    width: 331px;
+    margin: 51.86px 24px 20px 20px;
+    padding: 0px;
+}
+
+header p {
+    font-size: 16px;
+    color: #757B8A;
+    text-align: center;
+    width: 331px;
+    margin: 0px 24px 20px 20px;
+}
+
+header .box-email {
+    background-color: #F3F4F8;
+    width: 330px;
+    height: 60px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 26px;
+}
+
+header button {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: #243D31;
+    color: #FFFFFF;
+    width: 240px;
+    height: 60px;
+    border-radius: 60px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+header wireframe {
+    margin-top: 40px;
+    width: 327px;
+    height: 191.28px;
+}
