@@ -9,10 +9,13 @@
 
 body {
     /*font-family: "DM Sans", sans-serif;*/
+    background-image: url('/assets/Ellipse\ 125.png');
+    background-position: right bottom;
     font-family: "Inter", sans-serif;
     background-color: #FFFFFF;
     color: #101010;
     height: 100vh;
+
 }
 
 header {
@@ -73,8 +76,292 @@ header button {
     text-decoration: none;
 }
 
-header wireframe {
-    margin-top: 40px;
+.wireframe {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 100%;
+}
+
+.hero-geral {
+    background-color: #243D31;
+    padding-top: 63px;
+    padding-bottom: 40px;
+}
+
+.hero-geral-button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #24AA4A;
+    background-color: #E7FFD8;
+    border-radius: 20px;
+    width: 150px;
+    height: 32px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 14px;
+    line-height: 20px;
+}
+
+.hero-geral h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 295px;
+    height: 96px;
+    margin-left: 24px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: -3%;
+}
+
+.hero-geral .p {
+    font-size: 14px;
+    color: #E6E9ED;
+    text-align: left;
     width: 327px;
-    height: 191.28px;
+    height: 84px;
+    margin-left: 24px;
+    margin-top: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+.hero-geral-numbersWords {
+    font-family: "DM Sans", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-top: 56px;
+    margin-right: 40px;
+    height: 64px;
+}
+
+.hero-geral-numbersWords .maior {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -4%;
+}
+
+.hero-geral-numbersWords .menor {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    gap: 24px;
+    margin: 59px 6px 126px 5px;
+}
+
+.box {
+    width: 170px;
+    height: 96px;
+    background-color: #f0f0f0;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.team .image-grande {
+    width: 327px;
+    height: 236px;
+    margin-left: 24px;
+}
+
+.team .image-pequena {
+    width: 321px;
+    height: 168px;
+    margin-top: -70px;
+    margin-left: 48px;
+    margin-bottom: -40px;
+}
+
+.team .button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #24AA4A;
+    background-color: #E7FFD8;
+    border-radius: 20px;
+    width: 163px;
+    height: 32px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 17px;
+    line-height: 20px;
+}
+
+.team-div {
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 32px;
+    margin-bottom: 67px;
+    width: 319px;
+    height: 622px;
+}
+
+.team-div h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+
+.team-div .p {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.team-div .p-claro{
+    color: #757B8A;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    font-weight: 500;
+    margin-bottom: 67px;
+}
+
+.analisys-card-start {
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 27px;
+    margin-bottom: 34px;
+    width: 324px;
+    height: 216px;
+}
+
+.analisys-card-start .button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #24AA4A;
+    background-color: #E7FFD8;
+    border-radius: 20px;
+    width: 145px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.analisys-card-start h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+    height: 48px;
+}
+
+.analisys-card-start p {
+    color: #757B8A;
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 600;
+    height: 104px;
+}
+
+.analisys-card-1 {
+    width: 327px;
+    height: 496.09px;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 33.91px;
+}
+
+.analisys-card-1 h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.analisys-card-1 button {
+    color: #31543B;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    width: 180px;
+    height: 56px;
+    border-radius: 60px;
+    border: 1px solid #EDEDED;
+    font-weight: bold;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 23px;
+}
+
+.analisys-card-2 {
+    width: 330px;
+    height: 667.09px;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 66.91px;
+}
+
+.analisys-card-2 h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.analisys-card-2 button {
+    color: #31543B;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    width: 180px;
+    height: 56px;
+    border-radius: 60px;
+    border: 1px solid #EDEDED;
+    font-weight: bold;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 23px;
+    margin-bottom: 66.91px;
+}
+
+.goals {
+    text-align: left;
+    width: 311px;
+    height: 631px;
+    margin-left: 30px;
+    margin-top: 63px;
+    margin-right: 34px;
 }
